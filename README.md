@@ -1,2 +1,2 @@
 # jauhen.github.io
-Demo of React component.
+react: Demo of React component.
