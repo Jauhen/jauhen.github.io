@@ -1,0 +1,19 @@
+.collapsible-section {
+    border: 1px solid #CCC;
+    width: 300px;
+}
+
+.collapsible-section-title {
+    background: #CCC;
+    font: bold 1.3em/2 Arial;
+    padding: 0 20px;
+}
+
+.collapsible-section-content {
+    overflow: hidden;
+    transition: height 0.7s ease-out;
+}
+
+.collapsible-section-content-inner {
+    margin: 20px;
+}
