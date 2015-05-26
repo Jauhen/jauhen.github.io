@@ -1,0 +1,8 @@
+{
+  "name": "piechart",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "^2.1.3",
+    "underscore": "~1.8.3"
+  }
+}

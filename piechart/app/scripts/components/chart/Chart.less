@@ -1,0 +1,57 @@
+.pc-chart {
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 5px;
+  box-shadow: 3px 5px #999;
+  -webkit-flex: 0 0 400px;
+  flex: 0 0 400px;
+  margin: 30px;
+  padding: 20px;
+  position: relative;
+}
+
+.pc-chart-header {
+  text-align: center;
+}
+
+.pc-chart-header-description {
+  color: #999;
+  display: inline-block;
+  font-style: italic;
+  margin-left: 1ex;
+}
+
+.pc-chart-edit {
+  bottom: 20px;
+  color: #999;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  text-decoration: underline;
+}
+
+.pc-chart-delete {
+  top: 20px;
+  color: #999;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+}
+
+.pc-chart-container {
+  height: 400px;
+}
+
+.pc-chart-header-edit {
+  display: none;
+}
+
+.pc-chart-editmode .pc-chart-header,
+.pc-chart-editmode .pc-chart-container,
+.pc-chart-editmode .pc-chart-edit {
+  display: none;
+}
+
+.pc-chart-editmode .pc-chart-header-edit {
+  display: block;
+}
